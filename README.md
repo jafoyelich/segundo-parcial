@@ -32,7 +32,7 @@ npm install bootstrap
 
 El archivo `angular.json` fue actualizado para incluir el estilo global desde:
 
-```json
+```txt
 "styles": [
   "src/styles.css",
   "node_modules/bootstrap/dist/css/bootstrap.min.css"
@@ -84,9 +84,7 @@ ng test
 
 ## 📡 Servir el build en local (producción)
 
-Angular 17/20 genera la carpeta `dist/pwa-exam/browser` con los archivos estáticos del sitio. Si usas un servidor estático como `http-server`, debes servir esa carpeta (no la carpeta padre `dist/pwa-exam`).
 
-Comandos sugeridos:
 
 ```bash
 # Compila el proyecto
