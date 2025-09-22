@@ -54,8 +54,9 @@ El archivo `angular.json` fue actualizado para incluir el estilo global desde:
 
 ## 📝 Licencia del template
 
-[ngx-admin](https://github.com/akveo/ngx-admin) fue el template base utilizado.  
-Licencia: [MIT License](https://github.com/akveo/ngx-admin/blob/master/LICENSE).
+Se utilizó el template gratuito [AdminLTE](https://adminlte.io) como base visual del proyecto.  
+Repositorio GitHub: [https://github.com/ColorlibHQ/AdminLTE](https://github.com/ColorlibHQ/AdminLTE)  
+Licencia: [MIT License](https://github.com/ColorlibHQ/AdminLTE/blob/master/LICENSE)
 
 ## 📦 Build
 
