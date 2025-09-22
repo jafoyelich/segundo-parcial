@@ -80,3 +80,26 @@ Ejecuta los tests unitarios:
 ```bash
 ng test
 ```
+
+
+## 📡 Servir el build en local (producción)
+
+Angular 17/20 genera la carpeta `dist/pwa-exam/browser` con los archivos estáticos del sitio. Si usas un servidor estático como `http-server`, debes servir esa carpeta (no la carpeta padre `dist/pwa-exam`).
+
+Comandos sugeridos:
+
+```bash
+# Compila el proyecto
+npm run build
+
+# Sirve el build (carpeta correcta)
+npm run serve:dist
+# → Abre: http://localhost:8080/#/
+# → UI:   http://localhost:8080/#/ui
+```
+
+Si por error sirves `dist/pwa-exam` verás un índice con un enlace a `browser/` (listado de archivos) y la app no cargará. La solución es servir `dist/pwa-exam/browser` o abrir directamente `http://localhost:8080/browser/#/` si estás sirviendo la carpeta padre.
+
+Notas:
+- El enrutamiento usa hash (`#/`) para que funcione en servidores estáticos sin configuración de fallback.
+- Si prefieres URLs sin hash, usa un servidor con fallback a `index.html` (por ejemplo: `npx serve -s dist/pwa-exam/browser -l 8080`).
