@@ -95,3 +95,8 @@ npm run serve:dist
 # → Abre: http://localhost:8080/#/
 # → UI:   http://localhost:8080/#/ui
 ```
+
+## 📢 Pruebas del funcionamiento de PWA y notificaciones
+
+se hicieron las pruebas usando el navegador Edge y Safari en iOS.
+las capturas se subieron en classroom de la app funcionando en modo offline y las notificaciones.
