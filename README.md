@@ -38,6 +38,13 @@ El archivo `angular.json` fue actualizado para incluir el estilo global desde:
   "node_modules/bootstrap/dist/css/bootstrap.min.css"
 ]
 ```
+## 🧩 Mejoras de accesibilidad aplicadas
+
+- Jerarquía correcta de encabezados (`<h1>`, `<h2>`, etc.) por página.
+- Textos alternativos (`alt`) en imágenes.
+- Contraste adecuado en botones y textos.
+- Títulos dinámicos configurables para cada página.
+- Navegación funcional y clara entre rutas (`/`, `/ui`).
 
 ## 📂 Estructura esperada del examen
 
